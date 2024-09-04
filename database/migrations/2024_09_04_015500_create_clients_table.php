@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string("email");
             $table->string("phone_no");
             $table->string("description");
+            $table->string("client_image");
             $table->timestamps();
         });
     }

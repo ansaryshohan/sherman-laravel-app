@@ -10,6 +10,7 @@ Route::get('/', function () {
 Route::get('/all-clients', [ClientController::class,"show"]);
 Route::get('/add-client', [ClientController::class,"create"]);
 Route::post('/client', [ClientController::class,"store"]);
+Route::delete('/client/{id}', [ClientController::class,"destroy"]);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
