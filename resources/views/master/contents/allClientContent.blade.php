@@ -26,9 +26,13 @@
                         height="40">
                 </td>
                 <td>
-                    <button class="btn-success">
-                        <i class="bi bi-pencil-square"></i>
-                    </button>
+                    {{-- edit button --}}
+                    <a href="{{ url('/client/update/' . $client['id']) }}">
+                        <button class="btn-success">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                    </a>
+                    {{-- delete button and form --}}
                     <button class="btn-warning" form="delete-form-{{ $client['id'] }}">
                         <i class="bi bi-trash"></i>
                     </button>
