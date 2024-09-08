@@ -5,6 +5,6 @@
                 {{ session()->get('message') }}
             </div>
         @endif
-        @include('master.contents.allClientContent')
+        @include('master.contents.client.allClientContent')
     </div>
 </x-master-layout>

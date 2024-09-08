@@ -46,7 +46,7 @@
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="d-flex text-align-start">
-                                        <img class="me-2 rounded-circle" src="assets/images/users/avatar-2.jpg"
+                                        <img class="me-2 rounded-circle" src="/assets/images/users/avatar-2.jpg"
                                             alt="Generic placeholder image" height="32">
                                         <div class="flex-grow-1">
                                             <h5 class="m-0 fs-14">Shirley Miller</h5>
@@ -58,7 +58,7 @@
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="d-flex text-align-start">
-                                        <img class="me-2 rounded-circle" src="assets/images/users/avatar-5.jpg"
+                                        <img class="me-2 rounded-circle" src="/assets/images/users/avatar-5.jpg"
                                             alt="Generic placeholder image" height="32">
                                         <div class="flex-grow-1">
                                             <h5 class="m-0 fs-14">Timothy Moreno</h5>
@@ -103,19 +103,19 @@
                         <div class="row g-0">
                             <div class="col">
                                 <a class="dropdown-icon-item" href="#">
-                                    <img src="assets/images/brands/slack.png" alt="slack">
+                                    <img src="/assets/images/brands/slack.png" alt="slack">
                                     <span>Slack</span>
                                 </a>
                             </div>
                             <div class="col">
                                 <a class="dropdown-icon-item" href="#">
-                                    <img src="assets/images/brands/github.png" alt="Github">
+                                    <img src="/assets/images/brands/github.png" alt="Github">
                                     <span>GitHub</span>
                                 </a>
                             </div>
                             <div class="col">
                                 <a class="dropdown-icon-item" href="#">
-                                    <img src="assets/images/brands/dribbble.png" alt="dribbble">
+                                    <img src="/assets/images/brands/dribbble.png" alt="dribbble">
                                     <span>Dribbble</span>
                                 </a>
                             </div>
@@ -134,35 +134,35 @@
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <img src="assets/images/flags/us.jpg" alt="user-image" class="me-1"
+                        <img src="/assets/images/flags/us.jpg" alt="user-image" class="me-1"
                             height="12">
                         <span class="align-middle">English</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-1"
+                        <img src="/assets/images/flags/germany.jpg" alt="user-image" class="me-1"
                             height="12">
                         <span class="align-middle">German</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-1"
+                        <img src="/assets/images/flags/italy.jpg" alt="user-image" class="me-1"
                             height="12">
                         <span class="align-middle">Italian</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1"
+                        <img src="/assets/images/flags/spain.jpg" alt="user-image" class="me-1"
                             height="12">
                         <span class="align-middle">Spanish</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-1"
+                        <img src="/assets/images/flags/russia.jpg" alt="user-image" class="me-1"
                             height="12">
                         <span class="align-middle">Russian</span>
                     </a>
@@ -200,7 +200,7 @@
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom">
                             <div class="notify-icon">
-                                <img src="assets/images/users/avatar-1.jpg" class="img-fluid rounded-circle"
+                                <img src="/assets/images/users/avatar-1.jpg" class="img-fluid rounded-circle"
                                     alt="" />
                             </div>
                             <p class="notify-details">Karen Robinson</p>
@@ -212,7 +212,7 @@
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom">
                             <div class="notify-icon">
-                                <img src="assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle"
+                                <img src="/assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle"
                                     alt="" />
                             </div>
                             <p class="notify-details">Cristina Pride</p>
@@ -261,7 +261,7 @@
             <li class="dropdown notification-list topbar-dropdown">
                 <a class="nav-link dropdown-toggle nav-user me-0" data-bs-toggle="dropdown" href="#"
                     role="button" aria-haspopup="false" aria-expanded="false">
-                    <img src="assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                    <img src="/assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
                     <span class="pro-user-name ms-1">
                         Nik Patel <i class="uil uil-angle-down"></i>
                     </span>
@@ -299,23 +299,23 @@
 
         <!-- LOGO -->
         <div class="logo-box">
-            <a href="index.html" class="logo logo-dark">
+            <a href="{{ url("/") }}" class="logo logo-dark">
                 <span class="logo-sm">
-                    <img src="assets/images/logo-sm.png" alt="" height="24">
+                    <img src="/assets/images/logo-sm.png" alt="" height="24">
                     <!-- <span class="logo-lg-text-light">Shreyu</span> -->
                 </span>
                 <span class="logo-lg">
-                    <img src="assets/images/logo-dark.png" alt="" height="24">
+                    <img src="/assets/images/logo-dark.png" alt="" height="24">
                     <!-- <span class="logo-lg-text-light">S</span> -->
                 </span>
             </a>
 
-            <a href="index.html" class="logo logo-light">
+            <a href="{{ url("/") }}" class="logo logo-light">
                 <span class="logo-sm">
-                    <img src="assets/images/logo-sm.png" alt="" height="24">
+                    <img src="/assets/images/logo-sm.png" alt="" height="24">
                 </span>
                 <span class="logo-lg">
-                    <img src="assets/images/logo-light.png" alt="" height="24">
+                    <img src="/assets/images/logo-light.png" alt="" height="24">
                 </span>
             </a>
         </div>

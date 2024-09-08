@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use Faker\Provider\bg_BG\PhoneNumber;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,7 +18,11 @@ class ClientFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'name' => fake()->name(),
+            'email' => fake()->unique()->safeEmail(),
+            'phone_no' => fake()->phoneNumber(),
+            'description' => fake()->paragraph(1),
+            'client_image' => fake()->image(),
         ];
     }
 }

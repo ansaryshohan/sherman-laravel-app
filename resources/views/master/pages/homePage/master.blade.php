@@ -1,4 +1,4 @@
 {{-- @extends("master.masterLayout") --}}
 <x-master-layout>
-    @include('master.contents.dashboardContent')
+    @include('master.contents.dashoboard.dashboardContent')
 </x-master-layout>

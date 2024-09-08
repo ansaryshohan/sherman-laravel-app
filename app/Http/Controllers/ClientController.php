@@ -15,12 +15,12 @@ class ClientController extends Controller
     public function show()
     {
         $clients = Client::all();
-        return view('master.pages.all-clients', ["clients" => $clients]);
+        return view('master.pages.clientPages.all-clients', ["clients" => $clients]);
     }
     // ====== client add form ==========
     public function create()
     {
-        return view('master.pages.add-client');
+        return view('master.pages.clientPages.add-client');
     }
     // ====== client data add to db =========
     public function store(Request $request)
@@ -51,14 +51,14 @@ class ClientController extends Controller
         ;
         $image->move(public_path("clientImage"), $renameImage);
         $message = "client added successfully";
-        // return view('master.pages.add-client',["message"=>$message]);
+        // return view('master.pages.clientPages.add-client',["message"=>$message]);
         return redirect()->back()->with('message', $message);
     }
     //======= client edit form view =============
     public function edit($id)
     {
         $client = Client::findOrFail($id);
-        return view("master.pages.edit-client", ["client" => $client]);
+        return view("master.pages.clientPages.edit-client", ["client" => $client]);
     }
     //======= client edit form view =============
     public function update($id)

@@ -5,7 +5,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('master.pages.master');
+    return view('master.pages.homePage.master');
 });
 Route::get('/all-clients', [ClientController::class,"show"]);
 Route::get('/add-client', [ClientController::class,"create"]);
